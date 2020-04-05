@@ -18,11 +18,7 @@ public class Main {
     }*/
 
     public static boolean secondTask (int a, int b) {
-        if (a + b >= 10 && a + b <= 20) {
-            return true;
-        } else {
-            return false;
-        }
+        return a + b >= 10 && a + b <= 20;
     }
 
     public static String thirdTask (int a) {
